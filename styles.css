@@ -713,6 +713,8 @@ margin-right: 0.5rem;
     grid-template-columns: auto;
     justify-content: center;
     text-size-adjust: auto;
+    overflow-wrap: break-word;
+    overflow: hidden;
   }
   
   .sample-date {

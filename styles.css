@@ -1449,6 +1449,7 @@ textarea {
 @media screen and (max-width:480px) {
   .cv__services {
     height: auto;
+    overflow: hidden;
   }
 
   .cv__services h1{

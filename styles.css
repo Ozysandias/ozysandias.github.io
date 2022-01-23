@@ -739,8 +739,8 @@ margin-right: 0.5rem;
   }
 
   .sample-image {
-    max-width: 90%;
-    margin-left: 2rem;
+    max-width: 95%;
+    margin: 2rem;
     align-items: center;
   }
 }
@@ -1454,6 +1454,10 @@ textarea {
   .cv__services h1{
     font-size: 2rem;
     margin-top: 5rem;
+  }
+
+  .cv-services__container {
+    overflow: hidden;
   }
 
   .cv__card {

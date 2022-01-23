@@ -1162,8 +1162,10 @@ textarea {
   .section__content{
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .section__content li{
     text-size-adjust: auto;
-    margin: auto;
   }
   
 }
@@ -1330,7 +1332,8 @@ textarea {
   justify-content: center;
   flex-wrap: wrap;
   height: 100%;
-  margin-bottom: 0rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
 }
 
 .cv__card {

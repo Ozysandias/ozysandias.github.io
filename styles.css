@@ -712,6 +712,7 @@ margin-right: 0.5rem;
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
+    text-size-adjust: auto;
   }
   
   .sample-date {
@@ -736,7 +737,7 @@ margin-right: 0.5rem;
   }
 
   .sample-image {
-    max-width: 390px;
+    max-width: 90%;
     margin-left: 2rem;
     align-items: center;
   }

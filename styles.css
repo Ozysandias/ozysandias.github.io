@@ -1164,8 +1164,8 @@ textarea {
 
 @media screen and (max-width:480px) {
   .section__container {
-    padding-left: 4rem;
-    padding-right: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .section__content{
@@ -1270,9 +1270,10 @@ textarea {
   position: absolute;
   top: 50px;
   left: 150px;
-  color: #f1f1f1;
   text-shadow: 2px 2px 1px black;
   text-decoration: none;
+  color: #f1f1f1;
+  font-size: 1.5rem;
 }
 
 .experience__card p {
@@ -1532,8 +1533,16 @@ textarea {
   }
 
   .experience__card {
-    width: 350px;
+    width: 330px;
     height: 850px;
+    margin-left: 3rem;
+    align-content: center;
+  }
+
+  .experience__card h2 {
+    font-size: 1.2rem;
+    left: 50px;
+  
   }
 
   .experience__card h2,p{
@@ -1542,6 +1551,7 @@ textarea {
 
   .experience__card button {
     top: 780px;
+    left: 90px;
   }
 }
 

@@ -209,7 +209,7 @@ margin-right: 0.5rem;
         height: auto;
         width: 100%;
         font-size: 1.6rem;
-        border-radius: 18px;
+        border-radius: 0px 0px 18px 18px;
         right: 1%;     
          
     }
@@ -716,6 +716,8 @@ margin-right: 0.5rem;
     text-size-adjust: auto;
     overflow-wrap: break-word;
     overflow: hidden;
+    padding-right: 3rem;
+    padding-left: 1rem;
   }
   
   .sample-date {
@@ -1474,6 +1476,8 @@ textarea {
   .cv-services__container {
     height: 100%;
     width: auto;
+    padding-left: 1rem;
+    padding-right: 3rem;
   }
 
   .cv__card {
@@ -1523,6 +1527,10 @@ textarea {
   .experience__card {
     width: 350px;
     height: 850px;
+  }
+
+  .experience__card h2,p{
+    text-size-adjust: auto;
   }
 
   .experience__card button {

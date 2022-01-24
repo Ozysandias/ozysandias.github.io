@@ -1163,6 +1163,11 @@ textarea {
 }
 
 @media screen and (max-width:480px) {
+  .section__container {
+    padding-left: 4rem;
+    padding-right: 3rem;
+  }
+
   .section__content{
     display: grid;
     grid-template-columns: 1fr;

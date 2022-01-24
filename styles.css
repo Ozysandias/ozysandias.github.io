@@ -1471,6 +1471,11 @@ textarea {
     margin-top: 5rem;
   }
 
+  .cv-services__container {
+    height: 100%;
+    width: auto;
+  }
+
   .cv__card {
     width: 300px;
   }

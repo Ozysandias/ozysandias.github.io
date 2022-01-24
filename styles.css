@@ -716,8 +716,8 @@ margin-right: 0.5rem;
     text-size-adjust: auto;
     overflow-wrap: break-word;
     overflow: hidden;
-    padding-right: 3rem;
-    padding-left: 1rem;
+    padding-right: 6rem;
+    padding-left: 4rem;
   }
   
   .sample-date {
@@ -733,17 +733,20 @@ margin-right: 0.5rem;
   }
 
   .sample-text h2 {
-    margin-left: 2rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
   }
 
   .sample-text p {
-    margin-left: 2rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
     word-wrap: break-word;
   }
 
   .sample-image {
-    max-width: 95%;
-    margin: 2rem;
+    max-width: 85%;
+    margin-left: 3rem;
+    margin-right: 7rem;
     align-items: center;
   }
 }

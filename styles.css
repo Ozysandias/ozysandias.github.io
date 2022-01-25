@@ -2,8 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Montserrat Alternates", sans-serif;
-     
+    font-family: "Montserrat Alternates", sans-serif;     
 }
 
 :root {
@@ -295,6 +294,7 @@ margin-right: 0.5rem;
 .main {
  background-color: var(--primary-color);
  color: rgb(66, 66, 66);
+ overflow: hidden;
 }
 
 .main__container {
@@ -1518,6 +1518,8 @@ textarea {
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
+    padding: auto;
+    text-size-adjust: auto;
   }
 
   .cv__education-content {

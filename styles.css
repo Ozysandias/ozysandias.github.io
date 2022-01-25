@@ -1164,8 +1164,8 @@ textarea {
 
 @media screen and (max-width:480px) {
   .section__container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
   }
 
   .section__content{
@@ -1188,6 +1188,7 @@ textarea {
   align-items: center;
   height: auto;
   margin-bottom: 2rem;
+  overflow: hidden;
 }
 
 .cv__container h1 {
@@ -1323,6 +1324,7 @@ textarea {
   flex-direction: column;
   align-items: center;
   height: 100%;
+  overflow: hidden;
 }
 
 .cv__services h1{
@@ -1395,14 +1397,15 @@ textarea {
 }
 
 .cv__education {
-  margin: 5rem 12rem 3rem 10rem;
+  margin: 5rem 0rem 3rem 0;
   text-align: center;
+  align-content: center;
   color: #3EB489;
 }
 
 .cv__education h1 {
   font-size: 2.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 3rem;  
 }
 
 .cv__education-container {
@@ -1410,14 +1413,14 @@ textarea {
   grid-gap: 2rem;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto 0 auto;
-  padding-left: 1.5rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
   color: var(--secondary-color);
 }
 
 .cv__education-content{
-  padding-top: 3rem;
+  padding-top: 5rem;
   text-align: justify;
-  text-justify: inter-word;
 }
 
 .cv__education-content p {
@@ -1490,7 +1493,8 @@ textarea {
 
   .cv__education h1{
     font-size: 2rem;
-    margin-left:-3rem;
+    overflow: hidden;
+    margin: auto;
   }
 
   .cv__card {
@@ -1522,15 +1526,15 @@ textarea {
 
 
   .experience__card {
-    width: 330px;
-    height: 850px;
+    width: 300px;
+    height: 870px;
     margin-left: 3rem;
     align-content: center;
   }
 
   .experience__card h2 {
     font-size: 1.2rem;
-    left: 50px;
+    left: 40px;
   
   }
 
@@ -1540,8 +1544,8 @@ textarea {
   }
 
   .experience__card button {
-    top: 780px;
-    left: 90px;
+    top: 810px;
+    left: 80px;
   }
 }
 

@@ -1551,6 +1551,31 @@ textarea {
   }
 }
 
+/*QUOTE CSS */
+.quote__container {
+  padding-top: 5rem;
+  padding-left: 10rem;
+  padding-right:10rem ;
+  color: #3EB489;
+}
+
+.quote__container h1{
+  text-align: center;
+  padding-bottom: 3rem;
+  text-size-adjust: auto;
+}
+
+.quote__container img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width:480px) {
+  .quote__container {
+  padding-left: 1rem;
+  padding-right: 1rem;  
+  }
+}
 
 /*footer CSS */
 .footer__container  {

@@ -479,7 +479,7 @@ margin-right: 0.5rem;
 }
 
 .article-card:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   box-shadow: 5px 5px 15px var(--secondary-color);
 }
 

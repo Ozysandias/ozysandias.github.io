@@ -1021,8 +1021,8 @@ textarea {
  width: 100%;
  max-width: 1300px;
  padding-top: 3rem;
- padding-left: 50px;
- padding-right: 50px;
+ padding-left: 2rem;
+ padding-right: 2rem;
  text-align: justify;
  text-justify: inter-word;
  line-height: 25pt;

@@ -689,12 +689,9 @@ margin-right: 0.5rem;
 
 @media screen and (max-width:960px) {
   .sample__container {
-   display: grid;
-   grid-template-columns: auto;
-   align-items: center;
-   justify-self: center;
+   display: inline-block;
    width: 100%;
-   height: 100%;
+   align-items: center;
    padding-left: 2rem;
    padding-right: 2rem;
   }
@@ -708,33 +705,12 @@ margin-right: 0.5rem;
 
 @media screen and (max-width:480px) {
   .sample__container {
-    display: grid;
     width: 100%;
-    height: 100%;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-content: center;
-    text-size-adjust: auto;
-    overflow-wrap: break-word;
-    overflow: hidden;
-    padding-right: 2rem;
-    padding-left: 2rem;
   }
   
-  .sample-text {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .sample-text h2 {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
   .sample-text p {
-    padding-left: 2rem;
-    padding-right: 2rem;
     word-wrap: break-word;
+    word-break: keep-all;
     text-justify: inter-word;
   }
 

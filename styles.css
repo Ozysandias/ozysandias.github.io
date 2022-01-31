@@ -282,6 +282,7 @@ margin-right: 0.5rem;
 @media screen and (max-width:480px) {
   .navbar__container {
     padding-right: 4rem;
+    padding-left: 0.5rem;
   }
 
   #navbar__logo {

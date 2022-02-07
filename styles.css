@@ -10,7 +10,7 @@
   --secondary-color: #fff;
 }
 
-.light-theme {
+[data-theme="light"] {
   --primary-color: rgb(255, 225, 225);
   --secondary-color: #000;
 }
